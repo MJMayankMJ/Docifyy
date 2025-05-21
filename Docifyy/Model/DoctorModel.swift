@@ -2,7 +2,7 @@
 //  DoctorModel.swift
 //  BookAppointment
 //
-//  Created by Perennial Macbook on 30/08/22.
+//  Created by Mayank Jangid on 15/05/25.
 //
 
 import Foundation

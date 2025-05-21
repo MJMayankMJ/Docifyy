@@ -31,8 +31,8 @@
                             <constraint firstItem="vko-FK-4DT" firstAttribute="leading" secondItem="Txh-ka-Sfs" secondAttribute="leading" constant="10" id="aAo-ok-plP"/>
                             <constraint firstItem="vko-FK-4DT" firstAttribute="centerX" secondItem="Txh-ka-Sfs" secondAttribute="centerX" id="gIi-BO-x8Z"/>
                             <constraint firstAttribute="trailing" secondItem="vko-FK-4DT" secondAttribute="trailing" constant="10" id="jMC-92-NRQ"/>
-                            <constraint firstAttribute="width" constant="78" id="m0o-7v-FeA"/>
                             <constraint firstItem="vko-FK-4DT" firstAttribute="top" secondItem="Txh-ka-Sfs" secondAttribute="top" constant="10" id="wv1-LX-65B"/>
+                            <!-- WIDTH CONSTRAINT REMOVED -->
                         </constraints>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mop-P7-Ge5">
@@ -67,3 +67,4 @@
         </systemColor>
     </resources>
 </document>
+

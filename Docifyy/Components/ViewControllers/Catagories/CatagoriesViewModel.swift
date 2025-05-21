@@ -2,7 +2,7 @@
 //  CatagoriesViewModel.swift
 //  BookAppointment
 //
-//  Created by Perennial Macbook on 23/09/22.
+//  Created by Mayank Jangid on 15/05/25.
 //
 
 import Foundation

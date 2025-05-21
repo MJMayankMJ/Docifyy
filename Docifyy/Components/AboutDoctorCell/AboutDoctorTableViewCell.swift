@@ -2,7 +2,7 @@
 //  AboutDoctorTableViewCell.swift
 //  BookAppointment
 //
-//  Created by Perennial Macbook on 01/09/22.
+//  Created by Mayank Jangid on 15/05/25.
 //
 
 import UIKit
