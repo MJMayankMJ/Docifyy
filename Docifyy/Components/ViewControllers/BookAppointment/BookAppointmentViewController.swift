@@ -68,11 +68,12 @@ class BookAppointmentViewController: UIViewController, UISearchBarDelegate {
 
 // MARK: - BookAppointmentViewModelNavigationDelegate
 extension BookAppointmentViewController: BookAppointmentViewModelNavigationDelegate {
+    // why --- just wanna practice some progrmatic way --- fk consistency
     func routeToAll() {
-        let storyBoard: UIStoryboard = UIStoryboard(name: "AllCatagories", bundle: nil)
-        let vc = storyBoard.instantiateViewController(withIdentifier: "AllViewController") as! AllViewController
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
+            // Instantiate programmatically instead of via storyboard
+            let vc = AllViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        }
     
     func routeToCardiologist() {
         let storyBoard: UIStoryboard = UIStoryboard(name: "Cardiologist", bundle: nil)
