@@ -38,7 +38,8 @@ protocol BookAppointmentViewModelProtocol {
 
 class BookAppointmentViewModel: BookAppointmentViewModelProtocol {
     var navigationDelegate : BookAppointmentViewModelNavigationDelegate?
-    var catagoriesArray: [CatagoriesCells] = [.cellAll, .cellCardiology, .cellMedicine, .cellGeneral, .cellAmbulance, .cellFindClicnic]
+    // not necesaay now will do this afterwards when i have time
+    var catagoriesArray: [CatagoriesCells] = [.cellAll, .cellCardiology, .cellMedicine, /*.cellGeneral,*/ .cellAmbulance, /*.cellFindClicnic*/]
     var arrayOfCells = [BookAppointmentCells]()
     var doctorList: [DoctorModel] = [DoctorModel]()
     var doctorListCount: Int = 0
