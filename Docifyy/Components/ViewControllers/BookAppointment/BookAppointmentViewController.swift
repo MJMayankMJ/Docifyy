@@ -28,7 +28,7 @@ class BookAppointmentViewController: UIViewController, UISearchBarDelegate {
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
         self.navigationController?.view.backgroundColor = .clear
-        self.navigationItem.title = "Book Appointment"
+//        self.navigationItem.title = "Book Appointment"
         self.navigationController?.navigationBar.backgroundColor = .clear
     }
     

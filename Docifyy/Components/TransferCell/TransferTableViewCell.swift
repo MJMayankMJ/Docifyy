@@ -116,7 +116,7 @@ extension TransferTableViewCell: UICollectionViewDelegateFlowLayout {
         let itemWidth = floor(availableWidth / itemsPerRow)
         
         // 4) Height = width + label area
-        let itemHeight = itemWidth + 10
+        let itemHeight = itemWidth + 20
         
         return CGSize(width: itemWidth, height: itemHeight)
     }

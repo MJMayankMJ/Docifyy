@@ -7,6 +7,9 @@
 
 import UIKit
 
+
+// this is for future
+
 class GeneralViewController: UIViewController {
 
     override func viewDidLoad() {
